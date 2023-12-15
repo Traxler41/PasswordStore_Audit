@@ -10,7 +10,13 @@ EtherScan Link for the Smart Contract:-
 
 https://sepolia.etherscan.io/address/0x2ecf6ad327776bf966893c96efb24c9747f6694b
 
+Scope of Audit:- 
+
+PasswordStore.sol in src directory.
+
 The Audit Reports of the findings are below:- 
 
-https://github.com/Traxler41/PasswordStore_Audit/blob/main/Finding_1.md
+Vulnerability 1:- https://github.com/Traxler41/PasswordStore_Audit/blob/main/Finding_1.md
+Vulnerability 2:- 
+Vulnerability 3:-
 
