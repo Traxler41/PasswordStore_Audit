@@ -1,2 +1,14 @@
 # PasswordStore_Audit
 This a private audit done by me, Traxler on a course of Cyfrin Updraft by Patrick Collins. All the details can be found in ReadME file.
+
+CodeBase Link:- 
+
+https://github.com/Cyfrin/3-passwordstore-audit/tree/onboarded
+
+
+EtherScan Link for the Smart Contract:- 
+
+https://sepolia.etherscan.io/address/0x2ecf6ad327776bf966893c96efb24c9747f6694b
+
+The Audit Reports of the findings are below:- 
+
