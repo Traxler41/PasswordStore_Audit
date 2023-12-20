@@ -17,7 +17,9 @@ PasswordStore.sol in src directory.
 The Audit Reports of the findings are below:- 
 
 Vulnerability 1:- https://github.com/Traxler41/PasswordStore_Audit/blob/main/Finding_1.md
+
 Vulnerability 2:- https://github.com/Traxler41/PasswordStore_Audit/blob/main/Finding2.md
+
 Vulnerability 3:-
 
 (The ReadME.md file will be updated as more reports are uploaded to the repository. Last Updated:- 2023-12-20, 11:16 IST)
