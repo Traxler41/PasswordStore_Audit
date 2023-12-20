@@ -37,4 +37,12 @@
 
     </details>
 
-Recommended Mitigation:
+# Recommended Mitigation:
+  Add access control specifier to the function `passwordStore::setPassword()`.
+
+  ```javascript
+  if(msg.sender != s_owner){
+    revert PasswordStore__NotOwner();
+  ```
+
+  
