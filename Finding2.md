@@ -17,9 +17,9 @@
   
 
 # Proof of Concept:
-    Adding the following to the "passwordstore.t.sol" :-
+  Adding the following to the "passwordstore.t.sol" :-
     
-    ```javascript
+  ```javascript
       function test_anyone_can_set_password(address randomAddress) external
       {
           vm.prank(randomAddress);
@@ -30,7 +30,7 @@
           string memory actualPassword2 = passwordStore.getPassword();
           assertEq(actualPassword2, expectedPassword);
       }
-    ```
+  ```
 
 # Recommended Mitigation:
   Add access control specifier to the function `passwordStore::setPassword()`.
