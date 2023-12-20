@@ -6,7 +6,7 @@
 
   ```javascript
     function setPassword(string memory newPassword) external
-    //@audit:- This function has no access controls defined.
+@>    //@audit:- This function has no access controls defined.
     {
         s_password = newPassword;
         emit SetNetPassword();
