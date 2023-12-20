@@ -20,7 +20,8 @@
     Adding the following to the "passwordstore.t.sol" :-
     
     ```javascript
-      function test_anyone_can_set_password(address randomAddress) external {
+      function test_anyone_can_set_password(address randomAddress) external
+      {
           vm.prank(randomAddress);
           string memory expectedPassword = "myNewPassword";
           passwordStore.setPassword(expectedPassword);
