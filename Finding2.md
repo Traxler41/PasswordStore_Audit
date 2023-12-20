@@ -24,15 +24,15 @@
     <summary>Code</summary>
     
     ```javascript
-    function test_anyone_can_set_password(address randomAddress) external {
-        vm.prank(randomAddress);
-        string memory expectedPassword = "myNewPassword";
-        passwordStore.setPassword(expectedPassword);
-
-        vm.prank(owner);
-        string memory actualPassword2 = passwordStore.getPassword();
-        assertEq(actualPassword2, expectedPassword);
-    }
+      function test_anyone_can_set_password(address randomAddress) external {
+          vm.prank(randomAddress);
+          string memory expectedPassword = "myNewPassword";
+          passwordStore.setPassword(expectedPassword);
+  
+          vm.prank(owner);
+          string memory actualPassword2 = passwordStore.getPassword();
+          assertEq(actualPassword2, expectedPassword);
+      }
     ```
 
     </details>
