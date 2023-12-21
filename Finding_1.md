@@ -1,9 +1,9 @@
-# [S-#] Storing the password on-chain makes it visiblw to anyone, and no longer private.
+# [S-#] Storing the password on-chain makes it visible to anyone, and no longer private.
 
 
 # Description:
     All data stored on-chain is visible to anyone, and can be read directly from the blockchain. The
-    "PasswordStrore::s_password" variable is intended to be private varaible and only be accessed by the "PasswordStore::getPassword()" function,
+    "PasswordStrore::s_password" variable is intended to be private variable and only be accessed by the "PasswordStore::getPassword()" function,
     which is intended to be only called by the owner.
 
     We show one such method of reading any data off-chain below.
