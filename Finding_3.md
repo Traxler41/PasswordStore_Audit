@@ -1,4 +1,4 @@
-# [S-]
+# [I-1]
   The `PasswordStore::getPassword()` function is getPassword() while the natspec says
   it should be `getPassword(string)`
 
