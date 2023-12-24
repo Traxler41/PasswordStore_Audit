@@ -1,4 +1,4 @@
-### [S-] `PasswordStore::setPassword()` has no access controls, meaning it can be accessed by a non-owner.
+### [H-2] `PasswordStore::setPassword()` has no access controls, meaning it can be accessed by a non-owner.
 
 # Description:
   This function is set to be an 'external' function, however, the natspec and the overall purpose of this smart contract is that "IT ALLOWS ONLY THE OWNER CAN SET PASSWORD".
