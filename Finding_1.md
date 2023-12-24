@@ -1,4 +1,4 @@
-# [S-#] Storing the password on-chain makes it visible to anyone, and no longer private.
+# [H-1] Storing the password on-chain makes it visible to anyone, and no longer private.
 
 
 # Description:
