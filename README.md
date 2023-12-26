@@ -22,5 +22,7 @@ Vulnerability 2:- https://github.com/Traxler41/PasswordStore_Audit/blob/main/Fin
 
 Vulnerability 3:- https://github.com/Traxler41/PasswordStore_Audit/blob/main/Finding_3.md
 
-(The ReadME.md file will be updated as more reports are uploaded to the repository. Last Updated:- 2023-12-20, 11:16 IST)
+Final Audit Report of PasswordStore Protocol:- https://github.com/Traxler41/PasswordStore_Audit/blob/main/2023-12-26-PasswordStore_Audit.pdf
+
+(The ReadME.md file will be updated as more reports are uploaded to the repository. Last Updated:- 2023-12-26, 15:00 IST)
 
